@@ -7,7 +7,7 @@ const Student = ({student}) => {
       <p>{student.bio}</p>
 
       {student.scores.map(score =>
-        <Score score={score} />
+        <Score key={score.date} score={score} />
       )}
     </>
   )
