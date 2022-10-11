@@ -1,7 +1,7 @@
 const Score = ({score}) => {
   return (
     <>
-    <h1>SCORES!!</h1>
+    <h4>SCORE:</h4>
       <p>{score.date}</p>
       <p>{score.score}</p>
     </>
